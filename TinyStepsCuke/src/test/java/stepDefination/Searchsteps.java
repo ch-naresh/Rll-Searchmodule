@@ -93,16 +93,7 @@ public class Searchsteps {
 		Thread.sleep(2000);
 		firstCryPage.clickonitem.click();
 		
-		//driver.findElement(By.id("search_box")).clear();
-		// driver.findElement(By.id("search_box")).sendKeys(searchproduct);
-		//firstCryPage.clickSearchButton();
-		//firstCryPage.searchitem.click();
-		//driver.findElement(By.xpath("/html/body/div[1]/div[5]/div/div[2]/form/span")).click();
-		// Thread.sleep(2000);
-		// firstCryPage.clickonitem.click();
-		//driver.findElement(By.xpath("/html/body/div[5]/div[2]/div/div[2]/div[4]/div[1]/div[3]/div[2]/div/div[1]/div[1]/a/img")).click();
 		
-		//logger.info("SEARCH MODULE FUNCTIONALITY TEST EXECUTED SUCCESSFULLY");
 		captureScreenshot(driver, "Fail1.png");
 		
 	}
