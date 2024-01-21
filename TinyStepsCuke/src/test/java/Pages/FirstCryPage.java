@@ -18,7 +18,7 @@ import Base.BasePage;
 public class FirstCryPage extends BasePage{
 
     // Elements from the homepage
-    @FindBy(xpath = "/html/body/div[1]/div[5]/div/div[3]/ul/li[7]/span[1]") // Update with actual login button XPath
+    @FindBy(xpath = "//span[@class='anch poplogin_main poplogin R12_61']") // Update with actual login button XPath
     private WebElement loginButton;
 
     @FindBy(id = "lemail") // Update with actual username field ID
